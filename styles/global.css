@@ -21,6 +21,7 @@ html {
   --gray-blue: #A1B2CD;
   --gray-medium: #D3D9E2;
   --gray-light: #E5EAF1;
+  --gray-medium: #eaecf2;
 
   --hover-blue: #5699FF;
   --hover-red: #EA4B65;
@@ -97,6 +98,20 @@ button.outlined,
   background: var(--white);
   color: var(--blue);
   border: .2rem solid var(--blue);  
+}
+
+button.red,
+.button.red {
+  background: var(--red);
+  color: var(--white);
+  font-family: 'Poppins', sans-serif;
+}
+
+button.gray,
+.button.gray {
+  background: var(--gray-light);
+  color: var(--gray-dark);
+  font-family: 'Poppins', sans-serif;
 }
 
 .content header{
