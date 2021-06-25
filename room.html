@@ -7,6 +7,7 @@
     <title>Rocket.Q - Perguntas e Respostas</title>
     <link rel="stylesheet" href="/styles/global.css" />
     <link rel="stylesheet" href="/styles/room.css" />
+    <link rel="stylesheet" href="/styles/modal.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     
@@ -29,7 +30,7 @@
           </a>
         </div>
       </header>
-      
+    
       <main>
         <section id="question-form">
           <h2>Faça sua pergunta</h2>
@@ -72,9 +73,94 @@
               </div>
             </div>
 
+            <div class="question-wrapper">
+              <div class="question-content">
+                <div class="user">
+                  <img src="assets/avatar.svg" alt="Avatar">
+                </div>
+                <div class="question">
+                  <p>O que é TypeScript?</p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="check">
+                  <img src="assets/check.svg" alt="Marcar como lida">
+                  Marcar como lida
+                </a>
+                <a href="#" class="delete">
+                  <img src="assets/trash.svg" alt="Excluir">
+                  Excluir
+                </a>
+              </div>
+            </div>
+            <div class="question-wrapper">
+              <div class="question-content">
+                <div class="user">
+                  <img src="assets/avatar.svg" alt="Avatar">
+                </div>
+                <div class="question">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Pariatur culpa optio ipsum necessitatibus natus asperiores id,
+                    nulla quod. 
+                    Aut, fugiat itaque explicabo sequi 
+                    dolor quod laudantium? Beatae voluptas cupiditate adipisci.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quam quis maxime possimus voluptates ad quas aliquam voluptatem, neque ut. 
+                    Perferendis delectus maxime fuga, 
+                    quod autem iure ratione distinctio voluptatem maiores?
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="check">
+                  <img src="assets/check.svg" alt="Marcar como lida">
+                  Marcar como lida
+                </a>
+                <a href="#" class="delete">
+                  <img src="assets/trash.svg" alt="Excluir">
+                  Excluir
+                </a>
+              </div>
+            </div>
+            <div class="question-wrapper read">
+              <div class="question-content">
+                <div class="user">
+                  <img src="assets/avatar.svg" alt="Avatar">
+                </div>
+                <div class="question">
+                  <p>O que é JavaScript?</p>
+                </div>
+              </div>
+              <div class="actions">                
+                <a href="#" class="delete">
+                  <img src="assets/trash.svg" alt="Excluir">
+                  Excluir
+                </a>
+              </div>
+            </div>
+
           </div>
         </section>
-
       </main>
+    </div>      
+
+    <div class="modal-wrapper">
+      <div class="modal">
+        <h2>Excluir pergunta</h2>
+        <p>Tem certeza que você deseja excluir essa pergunta?</p>
+
+        <form action="#">
+          <label class="sr-only" for-id="password">Digite sua senha admin</label>
+          <input type="password" id="password" name="password" placeholder="Digite sua senha"/>
+
+          <div class="buttons">
+            <div class="button gray">Cancelar</div>
+            <button class="red">Sim, excluir</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
   </body>   
 </html>
