@@ -8,11 +8,11 @@
 
 ## Índice:
 - [O que é o Rocket.q?](#o-que-é-o-rocketq)
-- [Como usar o Rocket.q?](como-usar-o-rocketq)
-- [Como marcar uma pergunta como lida?](como-marcar-uma-pergunta-como-lida)
-- [Como excluir uma pergunta?](como-excluir-uma-pergunta)
-- [Quais tecnologias foram utilizadas?](quais-tecnologias-foram-utilizadas)
-- [Quais são suas redes sociais?](quais-são-suas-redes-sociais)
+- [Como usar o Rocket.q?](#como-usar-o-rocketq)
+- [Como marcar uma pergunta como lida?](#como-marcar-uma-pergunta-como-lida)
+- [Como excluir uma pergunta?](#como-excluir-uma-pergunta)
+- [Quais tecnologias foram utilizadas?](#quais-tecnologias-foram-utilizadas)
+- [Quais são suas redes sociais?](#quais-são-suas-redes-sociais)
 
 ## O que é o Rocket.q?
 ## ⁉🧠
