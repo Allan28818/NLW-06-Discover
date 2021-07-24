@@ -7,7 +7,7 @@
 ## <div align="center">Rocket.q</div>
 
 ## Índice:
-- [O que é o Rocket.q?](o-que-é-o-rocket.q?)
+- [O que é o Rocket.q?](O que é o Rocket.q?)
 - [Como usar o Rocket.q?](como-usar-o-rocket.q?)
 - [Como marcar uma pergunta como lida?](como-marcar-uma-pergunta-como-lida?)
 - [Como excluir uma pergunta?](como-excluir-uma-pergunta?)
